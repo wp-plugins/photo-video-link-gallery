@@ -18,7 +18,7 @@ Using **[PGP id=123]** shortcode, you can publish gallery in any Page or Post in
 
 https://www.youtube.com/watch?v=Mpg5V4TTEzc
 
-**Plugin Demo:** [Gallery Free Demo](http://demo.weblizar.com/photo-gallery-plugin-free/)
+**Plugin Demo:** [Gallery Free Demo](http://demo.weblizar.com/photo-video-link-gallery-free/)
 
 > **Plugin Features**
 >
@@ -72,7 +72,7 @@ Photo Video Link Gallery Pro is very flexible and and compatible on all devices 
 
 > #### **Live Demos**
 
-> * [DEMO : Photo Albums](http://weblizar.com/plugins/photo-video-link-gallery-pro/)
+
 > * [DEMO : Grid Gallery](http://demo.weblizar.com/photo-video-link-gallery-pro/)
 > * [DEMO : Vimeo Video Gallery](http://demo.weblizar.com/photo-video-link-gallery-pro/vimeo-video-gallery/)
 > * [DEMO : Youtube Video Gallery](http://demo.weblizar.com/photo-video-link-gallery-pro/youtube-video-gallery/)
