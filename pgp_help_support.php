@@ -6,7 +6,7 @@
 	<hr>
 	<div class="purchase_btn_div" style="margin-top:20px; margin-left:30px;">
 		<h2 style="font-weight: bold;font-size: 24px;padding-top: 30px;">View Support Docs or Open a Ticket</h2>	
-		<a  style= "margin-right:10px;margin-left:40px;margin-top: 30px;" href="https://wordpress.org/support/plugin/photo-vode-link-gallery" target="_new" class="btn btn-primary btn-lg"><?php _e('View Support Docs or Open a Ticket','')?></a>		
+		<a  style= "margin-right:10px;margin-left:40px;margin-top: 30px;" href="https://wordpress.org/support/plugin/photo-video-link-gallery" target="_new" class="btn btn-primary btn-lg"><?php _e('View Support Docs or Open a Ticket','')?></a>		
 	</div>
 	<hr>
 	<div class="purchase_btn_div" style="margin-top:20px; margin-left:30px;">
@@ -49,7 +49,7 @@
 			}
 		</style>
 		<div style="background:#EF4238;display:inline-block;">
-		<a class="acl-rate-us" style="text-align:center; text-decoration: none;font:normal 30px/l; " href="https://wordpress.org/plugins/photo-vodeo-link-gallery/" target="_blank" >
+		<a class="acl-rate-us" style="text-align:center; text-decoration: none;font:normal 30px/l; " href="https://wordpress.org/plugins/photo-video-link-gallery/" target="_blank" >
 			<span class="dashicons dashicons-star-filled"></span>
 			<span class="dashicons dashicons-star-filled"></span>
 			<span class="dashicons dashicons-star-filled"></span>

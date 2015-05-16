@@ -352,7 +352,7 @@ class PGP {
 		</style>
 		<div align="center">
 			<p>Please Review & Rate Us On WordPress</p>
-			<a class="upgrade-to-pro-demo .fag-rate-us" style=" text-decoration: none; height: 40px; width: 40px;" href="https://wordpress.org/plugins/photo-vodeo-link-gallery/" target="_blank">
+			<a class="upgrade-to-pro-demo .fag-rate-us" style=" text-decoration: none; height: 40px; width: 40px;" href="https://wordpress.org/plugins/photo-video-link-gallery/" target="_blank">
 				<span class="dashicons dashicons-star-filled"></span>
 				<span class="dashicons dashicons-star-filled"></span>
 				<span class="dashicons dashicons-star-filled"></span>
@@ -361,7 +361,7 @@ class PGP {
 			</a>
 		</div>
 		<div class="upgrade-to-pro-demo" style="text-align:center;margin-bottom:10px;margin-top:10px;">
-			<a href="https://wordpress.org/plugins/photo-vodeo-link-gallery/" target="_blank" class="button button-primary button-hero">RATE US</a>
+			<a href="https://wordpress.org/plugins/photo-video-link-gallery/" target="_blank" class="button button-primary button-hero">RATE US</a>
 		</div>
 		<?php
 	}
