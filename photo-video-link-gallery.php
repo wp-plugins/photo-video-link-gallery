@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Photo Video Link Gallery
- * Version: 1.0
+ * Version: 1.1
  * Description: Design Photo, Video, Link, Image Gallery With CSS3 Hover Animation & Display With Lightbox 
  * Author: Weblizar
  * Author URI: http://weblizar.com/plugins/photo-gallery-pluign/
@@ -82,6 +82,17 @@ function PGP_ShortCodeDetect() {
              * font awesome css
              */
             wp_enqueue_style('PGP-font-awesome-4', PGP_PLUGIN_URL.'css/font-awesome-latest/css/font-awesome.min.css');
+			
+			 /**
+				* envira & isotope js
+			*/
+			
+			wp_enqueue_script('pgp_masonry', PGP_PLUGIN_URL.'js/masonry.pkgd.min.js', array('jquery'));    
+			wp_enqueue_script('pgp_imagesloaded', PGP_PLUGIN_URL.'js/imagesloaded.pkgd.min.js', array('jquery')); 
+
+
+   		
+			
 			
             break;
         } //end of if
@@ -251,7 +262,6 @@ class PGP {
 	 */
     public function PGP_generate_add_image_meta_box_function($post) { ?>
 		<div >
-			<input id="PGP_delete_all_button" class="button" type="button" value="Delete All" rel="">
 			<input type="hidden" id="PGP_wl_action" name="PGP_wl_action" value="PGP-save-settings">
             <ul id="pgp_gallery_thumbs" class="clearfix">
 				<?php
@@ -321,6 +331,37 @@ class PGP {
 			</p>
 		</div>
 		<div style="clear:left;"></div>
+		<input id="PGP_delete_all_button" class="button" type="button" value="Delete All" rel="">
+			
+		<p><strong>Tips:</strong> Plugin crop images with same size thumbnails. So, please upload all gallery images using Add New Image button. Don't use/add pre-uploaded images which are uploaded previously using Media/Post/Page.</p>
+        <style>
+		.fag-rate-us span.dashicons{
+			width: 30px;
+			height: 30px;
+			color:#F8504B !important;
+		}
+		.fag-rate-us span.dashicons-star-filled:before {
+			content: "\f155";
+			font-size: 30px;
+		}
+		.fag-rate-us {
+				  color: #F8504B !important;
+				  margin-bottom:5px;
+				}
+		</style>
+		<div style="text-align:left;color:#F8504B !important;">
+			<p>Please Review & Rate Us On WordPress</p>
+			<a class="upgrade-to-pro-demo fag-rate-us" style=" text-decoration: none; height: 40px; width: 40px;" href="https://wordpress.org/plugins/photo-video-link-gallery/" target="_blank">
+				<span class="dashicons dashicons-star-filled"></span>
+				<span class="dashicons dashicons-star-filled"></span>
+				<span class="dashicons dashicons-star-filled"></span>
+				<span class="dashicons dashicons-star-filled"></span>
+				<span class="dashicons dashicons-star-filled"></span>
+			</a>
+		</div>
+		<div class="upgrade-to-pro-demo" style="text-align:left;margin-bottom:10px;margin-top:10px;color:#F8504B !important;">
+			<a href="https://wordpress.org/plugins/photo-video-link-gallery/" target="_blank" class="button button-primary button-hero">RATE US</a>
+		</div>
         <?php
     }
 	

@@ -111,7 +111,7 @@ function PhotoGalleryPluginShortCode( $Id ) {
 				<?php echo get_the_title($PGP_Id);?>
 			</div>
 			<?php } ?>
-			<div class="row">
+			<div class="row gallery1">
 				<?php
 				$PGP_AllPhotosDetails = unserialize(get_post_meta( $PGP_Id, 'PGP_all_photos_details', true));
 				$TotalImages =  get_post_meta( $PGP_Id, 'PGP_total_images_count', true );
@@ -158,6 +158,16 @@ function PhotoGalleryPluginShortCode( $Id ) {
 				?>
 			</div>
 		</div>
+		<script>
+		
+			jQuery('.gallery1').imagesLoaded( function(){
+	  jQuery('.gallery1').masonry({
+	   itemSelector: '.item_margin',
+	   isAnimated: true,
+	   isFitWidth: true
+	  });
+	});
+		</script>
 		<?php
 		return ob_get_clean();
 	endwhile;

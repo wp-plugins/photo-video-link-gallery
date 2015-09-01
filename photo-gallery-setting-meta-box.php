@@ -71,6 +71,7 @@
 				<select name="PGP_Effect" id="PGP_Effect" onchange='effect_change()'>
 					<optgroup label="Select Effect">
 						<option value="effect11" <?php if($PGP_Effect == 'effect11') echo "selected=selected"; ?>><?php _e('Effect 1','PGP_TEXT_DOMAIN')?></option>
+						<option value="effect4" <?php if($PGP_Effect == 'effect4') echo "selected=selected"; ?>><?php _e('Effect 2','PGP_TEXT_DOMAIN')?></option>
 					</optgroup>
 				</select>
 				<p class="description">
@@ -100,9 +101,9 @@
 			<th scope="row"><label><?php _e('Image Hover Color','PGP_TEXT_DOMAIN')?></label></th>
 			<td class="image_color">
 				<?php if($PGP_Color == "") $PGP_Color = "#31A3DD"; ?>
-				<input type="radio" name="PGP_Color" id="PGP_Color" value="#31A3DD" <?php if($PGP_Color == '#31A3DD' ) { echo "checked"; } ?>><label style="color:#31A3DD;"><?php _e('Color1','PGP_TEXT_DOMAIN')?></label>&nbsp;&nbsp;&nbsp;
-				<input type="radio" name="PGP_Color" id="PGP_Color" value="#545454" <?php if($PGP_Color == '#545454' ) { echo "checked"; } ?>><label style="color:#545454;"><?php _e('Color2','PGP_TEXT_DOMAIN')?></label>&nbsp;&nbsp;&nbsp;
-				<input type="radio" name="PGP_Color" id="PGP_Color" value="#dd4242" <?php if($PGP_Color == '#dd4242' ) { echo "checked"; } ?>><label style="color:#dd4242;"><?php _e('Color3','PGP_TEXT_DOMAIN')?></label>
+				<input id="PGP_Color" name="PGP_Color" type="text" value="<?php echo $PGP_Color; ?>" class="my-color-field" data-default-color="#ffffff" />
+				
+				
 				<p class="description">
 					<?php _e('Select any color to apply on image gallery.','PGP_TEXT_DOMAIN')?>
 					<a href="#" id="p4" data-tooltip="#s4"><?php _e('Preview','PGP_TEXT_DOMAIN')?></a>
